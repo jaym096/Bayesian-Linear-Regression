@@ -17,5 +17,5 @@ The pp2data folder containing all the data set. The code considers that the data
        -> integer value (1,2): to decide which experiment to run
 	                1 : experiment 1
 	                2 : experiment 2
-    2.Example: If I want to perform experiment 1 on yelp data set then:
+    2. Example: If I want to perform experiment 1 on yelp data set then:
                python main.py yelp_labelled.txt 1
