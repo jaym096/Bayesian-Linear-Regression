@@ -6,5 +6,14 @@ Applied **Regularized Bayesian Linear Rgression** on various datasets and experi
 statistical model. Leveraged Bayesian model selection to find the parameters of the prior. Compared different approaches and concluded
 that Bayesian model selection is a good method to obtain hyperparameters for statistical model.
 
-## HOW TO RUN THE CODE
+The project consists of 5 code files (.py):\
+_main.py_, _NBC.py_, _generatedKfolds.py_, _train_test.py_
 
+## HOW TO RUN THE CODE
+    1. To run the code you only have to use the main.py file which takes two command line arguments
+       -> filename: name of the data set file
+       -> integer value (1,2): to decide which experiment to run
+	                1 : experiment 1
+	                2 : experiment 2
+    2.Example: If I want to perform experiment 1 on yelp data set then:
+               python main.py yelp_labelled.txt 1
